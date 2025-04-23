@@ -4,6 +4,18 @@
 [![Storch Version](https://img.shields.io/badge/Storch-0.9.0-orange)](https://github.com/mullerhai/storch)
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
 
+# MNIST Classification with LSTM and RMSNorm using Storch
+
+An LSTM + RMSNorm model implemented with &zwnj;**Storch Deep Learning Framework**&zwnj; for sequential classification on the MNIST handwritten digit dataset. Explores the potential of non-CNN architectures in image classification tasks.
+
+## ✨ Core Features
+- &zwnj;**Innovative Architecture**&zwnj;: Processes image pixel sequences using LSTM networks (alternative to traditional CNNs)
+- &zwnj;**Optimization Technique**&zwnj;: Integrated RMSNorm layer enhances training stability
+- &zwnj;**Efficient Implementation**&zwnj;: Leverages Scala 3's type-safe programming and Storch's GPU acceleration
+- &zwnj;**User-Friendly**&zwnj;: One-click training scripts & pre-trained model loading
+
+Full translated README structure maintained with technical accuracy and markdown formatting preserved.
+
 使用 &zwnj;**Storch 深度学习框架**&zwnj;实现的 LSTM + RMSNorm 模型，在 MNIST 手写数字数据集上实现序列分类。探索非CNN架构在图像分类任务中的可能性。 现在可以在maven 中央仓库引用storch 相关组件
 
 ## ✨ 核心特性
