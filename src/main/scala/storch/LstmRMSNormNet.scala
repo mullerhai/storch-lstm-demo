@@ -125,8 +125,8 @@ object LstmRMSNormNet extends App {
   //  val mnistTrain = MNIST(dataPath, train = true, download = true)
   //  val mnistEval = MNIST(dataPath, train = false)
   // "D:\\code\\data\\FashionMNIST"
-//  val dataPath = Paths.get("data/FashionMNIST")
-  val dataPath = Paths.get("D:\\data\\FashionMNIST")
+//  val dataPath = Paths.get("data/FashionMNIST") //macos or linux
+  val dataPath = Paths.get("D:\\data\\FashionMNIST") //windows
   val mnistTrain = FashionMNIST(dataPath, train = true, download = true)
   val mnistEval = FashionMNIST(dataPath, train = false)
   println(s"model ${model.modules.toSeq.mkString(" \n")}")
