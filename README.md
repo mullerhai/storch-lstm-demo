@@ -14,7 +14,7 @@ An LSTM + RMSNorm model implemented with &zwnj;**Storch Deep Learning Framework*
 - &zwnj;**Efficient Implementation**&zwnj;: Leverages Scala 3's type-safe programming and Storch's GPU acceleration
 - &zwnj;**User-Friendly**&zwnj;: One-click training scripts & pre-trained model loading
 
-Full translated README structure maintained with technical accuracy and markdown formatting preserved.
+
 
 使用 &zwnj;**Storch 深度学习框架**&zwnj;实现的 LSTM + RMSNorm 模型，在 MNIST 手写数字数据集上实现序列分类。探索非CNN架构在图像分类任务中的可能性。 现在可以在maven 中央仓库引用storch 相关组件
 
